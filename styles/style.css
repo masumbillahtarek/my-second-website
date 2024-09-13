@@ -1,0 +1,166 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+/*Header Styles */
+.banner{
+    position: relative;
+}
+.banner>img{
+    width: 100%;
+}
+.banner-items{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 500px;;
+}
+.banner-items>h2{
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-items>p{
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+  
+    
+  
+}
+.btn{
+    text-align: right;
+}
+.btn>button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+ 
+}
+/*About Styles */
+.about-section{
+    display: flex;
+    margin: 60px 100px;
+    align-items: center;
+    gap: 30px;
+   
+}
+.person{
+    width: 451px;
+height: 700px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-description>ul>li{
+    font-size: 16px;
+    font-weight: 400;
+}
+/*My Plan Part*/
+.my-plan{
+  margin: 60px 100px;
+}
+.my-plan-title{
+    text-align: center;
+font-size: 40px;
+font-weight: 700;
+}
+.my-all-plan{
+    margin-top: 60px;
+    display: flex;  
+    justify-content: space-around;
+    text-align: center;
+}
+/*Contact Styles*/
+.contact-us{
+    position: relative;
+    margin: 60px 100px;
+}
+.contact-img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.contact{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.contact>h3{
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact>button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    color: #005FAC;
+
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+}
+/*Footer Part*/
+footer{
+    background-color: black;
+    padding: 100px 120px;
+}
+.footer-section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-description{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-part>ul>li{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-part>h4{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-part>input{
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color:  #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+display: block;
+margin: 20px 0;
+
+}
+.footer-part>button{
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+}
